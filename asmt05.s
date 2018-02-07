@@ -2,9 +2,8 @@
     .data
 min:	   .word 1
 max:	   .word 10
-num:	   .word 8     # Feel free to change this for testing
-                       # purposes, mut change it back to 8
-                                           # before submitting!
+num:	   .word 8   
+                      
 msgintro:  .asciiz "Guess must be a hexadecimal number between "
 msgand:    .asciiz " and "
 msgend:    .asciiz "\nEnter your guess (or nothing to quit).\n"
